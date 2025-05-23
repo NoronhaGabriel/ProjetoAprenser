@@ -40,4 +40,4 @@ Clone o repositório: git clone (https://github.com/NoronhaGabriel/ProjetoAprens
 Abra o arquivo index.html no navegador de sua preferência.
 
 👨‍💻 Autor
-Gabriel Noronha @NoronhaGabriel
+Gabriel Noronha - @NoronhaGabriel
