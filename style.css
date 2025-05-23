@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: #f1b800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #dfb50e;
+  text-decoration: none;
+  margin-left: 0px;
+  border: 1px solid #f1b800;
+  padding: 8px 16px;
+}
+nav a:hover{
+  color: #fff9b577;
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #ffffe0, #fff700);
+  padding: 50px 40px;
+}
+
+.text-content {
+  max-width: 50%;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.text-content button {
+  background-color: #f1b800;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.image-content img {
+  max-width: 400px;
+  height: auto;
+}
+.botao-mais-cursos {
+  background-color: #f1c40f; /* amarelo */
+  color: black;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao-mais-cursos:hover {
+  background-color: #d4ac0d; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center; 
+}
+h2 {
+  font-size: 32px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color:rgb(0, 0, 0);
+}
+
+.cursos-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  width: 300px;
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+}
+
+.botao {
+  margin-top: 50px;
+  margin-bottom: 50px ;
+  display: flex;
+  justify-content: center;
+}
+
+.botao button {
+  background-color: #f1c40f;
+  color: #0c0b0b;
+  border: none;
+  padding: 14px 28px;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.botao button:hover {
+  background-color: #ffff6b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.nossa-escola {
+  background-color: #0c3c66;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  flex-wrap: wrap;
+}
+
+.nossa-escola img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+  margin-right: 40px;
+}
+
+.nossa-escola .texto {
+  max-width: 500px;
+}
+
+.nossa-escola h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.nossa-escola p {
+  line-height: 1.6;
+}
+
+.contatos {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contatos h2 {
+  font-size: 26px;
+  margin-bottom: 40px;
+  color: #0c3c66;
+}
+
+.contatos img {
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.info-contato {
+  font-size: 14px;
+  color: #333;
+}
+
+footer {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
