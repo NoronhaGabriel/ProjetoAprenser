@@ -25,3 +25,12 @@ Utilizar o CSS para estilizar textos, imagens e layouts
 Criar um site visualmente organizado e responsivo
 
 Trabalhar com semântica e boas práticas
+
+
+🚀 Como Visualizar
+Clone o repositório:git clone (https://github.com/NoronhaGabriel/ProjetoAprenser.git)
+
+Abra o arquivo index.html no navegador de sua preferência.
+
+👨‍💻 Autor
+Gabriel Noronha @NoronhaGabriel
