@@ -28,7 +28,7 @@ Trabalhar com semântica e boas práticas
 
 
 🚀 Como Visualizar
-Clone o repositório:git clone (https://github.com/NoronhaGabriel/ProjetoAprenser.git)
+Clone o repositório: git clone (https://github.com/NoronhaGabriel/ProjetoAprenser.git)
 
 Abra o arquivo index.html no navegador de sua preferência.
 
