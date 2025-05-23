@@ -15,8 +15,9 @@ Descrição institucional
 Rodapé com informações de contato
 
 🧪 Tecnologias Utilizadas
-HTML5
 
+
+HTML5
 CSS3
 
 🎯 Objetivos de Aprendizado
